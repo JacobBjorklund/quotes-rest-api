@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,10 +13,11 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #66475C;
+    font-family: 'Courgette', sans-serif;
 }
 
 #parent {
-    width: 50%;
+    width: 600px;
     height: 80%;
     display: flex;
     align-items: center;
@@ -26,9 +29,26 @@ body {
 h1 {
     font-size: 40px;
     color: #E3B1D5;
+    text-align: center;
+    font-weight: 400;
 }
 
 p {
     font-size: 24px;
     color: #E3B1D5;
+    opacity: 0.6;
+}
+
+#lines {
+    width: 30px;
+    height: 3px;
+    background-color: #E3B1D5;
+    opacity: 0.3;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 250px;
 }
